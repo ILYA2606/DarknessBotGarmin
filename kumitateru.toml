@@ -55,6 +55,5 @@ languages = [
 [build]
 signing_key = "id_rsa_garmin.der"
 
-
 [dependencies]
 # It is here just for future
