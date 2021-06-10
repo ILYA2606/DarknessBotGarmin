@@ -22,6 +22,7 @@ devices = [
     "fenix5plus",
     "fenix5s",
     "fenix5splus",
+    "fenix5x",
     "fenix6",
     "fenix6pro",
     "fenix6s",
