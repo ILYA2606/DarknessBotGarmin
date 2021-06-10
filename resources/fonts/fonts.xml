@@ -1,6 +1,4 @@
 <fonts>
     <font id="Tall" filename="tall.fnt" antialias="true"/>
-    <font id="Prime" filename="prime.fnt" antialias="true" />
-    <font id="PrimeSmall" filename="prime-small.fnt" antialias="true" />
     <font id="SmallSemiBold" filename="titillium-web-semibold-16.fnt" antialias="true" />
 </fonts>
