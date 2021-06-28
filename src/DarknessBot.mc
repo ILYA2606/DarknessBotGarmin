@@ -1,6 +1,6 @@
 using Toybox.Application;
 using Toybox.WatchUi;
-using Toybox.Application.Storage;
+using Toybox.Communications;
 
 class DarknessBot extends Application.AppBase {
 
@@ -10,7 +10,7 @@ class DarknessBot extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state) {
-        
+        Communications.registerForPhoneAppMessages(method(:phoneAppMessageHandler));
     }
 
     // onStop() is called when your application is exiting
