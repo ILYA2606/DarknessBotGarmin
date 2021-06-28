@@ -1,4 +1,5 @@
-using WatchUi
+using Toybox.WatchUi;
+using Toybox.Communications;
 
 function phoneAppMessageHandler(message) {
     var data = message.data;
