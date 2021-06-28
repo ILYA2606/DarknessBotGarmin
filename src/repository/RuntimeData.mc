@@ -1,3 +1,3 @@
 module RuntimeData {
-    var speed = 0.0
+    var speed = 0.0;
 }
