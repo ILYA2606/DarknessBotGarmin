@@ -1,3 +1,9 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="BatteryIcon" filename="battery.png" />
+    <bitmap id="ConnectToPhoneSplashScreenImage" filename="connectToDevice.png" />
+    <bitmap id="CurrentIcon" filename="current.png" />
+    <bitmap id="MileageIcon" filename="mileage.png" />
+    <bitmap id="RemainingMileageIcon" filename="remainingMileage.png" />
+    <bitmap id="SpeedIcon" filename="speed.png" />
 </drawables>
