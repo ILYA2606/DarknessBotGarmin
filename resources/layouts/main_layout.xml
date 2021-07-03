@@ -1,5 +1,8 @@
 <layout id="MainLayout">
+    <!-- Main text -->
     <bitmap id="MainTextTitleIcon" x="38%" y="22%" filename="speed.png" />
     <label id="MainTextTitle" text="kmh" x="55%" y="25%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_SMALL" color="Gfx.COLOR_DK_GRAY" />
     <label id="MainText" text="22" x="center" y="45%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_HOT" />
+    <!-- Seperators -->
+    <drawable id="Separators" class="SeparatorRenderer" ></drawable>
 </layout>
