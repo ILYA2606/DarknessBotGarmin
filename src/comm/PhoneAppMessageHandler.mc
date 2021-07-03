@@ -7,7 +7,7 @@ function phoneAppMessageHandler(message) {
 
     if (data != null) {
         if (data.type == "livedata") {
-            RuntimeData.speed = data.speed
+            RuntimeData.speed = data.speed;
         }
     }
 
