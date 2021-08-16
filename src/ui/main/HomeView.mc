@@ -1,12 +1,12 @@
 using Toybox.WatchUi;
 
-class MainView extends WatchUi.View {
+class HomeView extends WatchUi.View {
     function initialize() {
         View.initialize();
     }
 
     function onLayout(dc) {
-        setLayout(Rez.Layouts.MainLayout(dc));
+        setLayout(Rez.Layouts.HomeLayout(dc));
         View.findDrawableById("MainText").setText("0.0");
     }
 
