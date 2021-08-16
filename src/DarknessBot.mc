@@ -20,6 +20,6 @@ class DarknessBot extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new MainView(), new MainViewDelegate(), WatchUi.SLIDE_LEFT ];
+        return [ new HomeView(), new HomeViewDelegate(), WatchUi.SLIDE_LEFT ];
     }
 }
