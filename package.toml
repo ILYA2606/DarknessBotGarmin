@@ -1,0 +1,67 @@
+[package]
+name_res = "@Strings.AppName"
+icon_resource = "@Drawables.LauncherIcon"
+main_class = "DarknessBot"
+app_type = "watch-app"
+package_type = "app"
+min_sdk = "1.2.0"
+target_sdk = "4.0.4"
+
+[package_meta]
+name = "DarknessBot"
+version = "1.0.0"
+id = "328F3A1F-7C15-4455-8A1A-DDF87BC0C179"
+devices = [
+    "enduro",
+    "fr645",
+    "fr645m",
+    "fr745",
+    "fr935",
+    "fr945",
+    "fenix3",
+    "fenix3_hr",
+    "fenix5",
+    "fenix5plus",
+    "fenix5s",
+    "fenix5splus",
+    "fenix5x",
+    "fenix6",
+    "fenix6pro",
+    "fenix6s",
+    "fenix6spro",
+    "fenix6xpro",
+    "fenixchronos",
+    "vivoactive3",
+    "vivoactive3d",
+    "vivoactive3m",
+    "vivoactive3mlte",
+    "vivoactive4",
+    "vivoactive4s",
+    "approachs60",
+    "approachs62",
+    "marqadventurer",
+    "marqathlete",
+    "marqaviator",
+    "marqcommander",
+    "marqdriver",
+    "marqexpedition",
+    "marqgolfer",  
+]
+permissions = [
+    "Communications"
+]
+languages = [
+    "eng",
+    "rus",
+]
+
+[build]
+signing_key = "id_rsa_garmin.der"
+type_check_level = 0
+compiler_args = ""
+
+
+[dependencies]
+# It is here just for future
+
+[servers]
