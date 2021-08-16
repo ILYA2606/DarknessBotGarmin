@@ -1,16 +1,16 @@
 module RuntimeData {
-    var isWheelConnected = false;
-    var distance = 0.0;
-    var totalMileage = 0.0;
-    var voltage = 0.0;
-    var speed = 0.0;
-    var maxSpeed = 0.0;
-    var singleMaxSpeed = 0.0;
-    var avgSpeed = 0.0;
-    var battery = 0;
-    var runtime = 0;
-    var remaining = 0.0;
-    var temperature = 0.0;
-    var current = 0.0;
-    var maxCurrent = 0.0;
+    var isWheelConnected = false,
+        distance = 0.0,
+        totalMileage = 0.0,
+        voltage = 0.0,
+        speed = 0.0,
+        maxSpeed = 0.0,
+        singleMaxSpeed = 0.0,
+        avgSpeed = 0.0,
+        battery = 0,
+        runtime = 0,
+        remaining = 0.0,
+        temperature = 0.0,
+        current = 0.0,
+        maxCurrent = 0.0;
 }
