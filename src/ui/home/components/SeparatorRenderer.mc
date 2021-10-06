@@ -1,7 +1,6 @@
 using Toybox.WatchUi;
 using Toybox.System;
 
-
 class SeparatorRenderer extends WatchUi.Drawable {
     private var leftSeparatorX = System.getDeviceSettings().screenWidth * 0.3;
     private var leftSeparatorY = System.getDeviceSettings().screenHeight * 0.6;
