@@ -60,8 +60,5 @@ signing_key = "id_rsa_garmin.der"
 type_check_level = 0
 compiler_args = ""
 
-
 [dependencies]
 # It is here just for future
-
-[servers]
