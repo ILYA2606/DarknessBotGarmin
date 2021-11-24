@@ -1,20 +1,20 @@
 <layout id="HomeLayout">
     <!-- Main text -->
-    <bitmap id="MainTextTitleIcon" x="38%" y="22%" filename="speed.png" />
-    <label id="MainTextTitle" text="kmh" x="55%" y="25%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_SMALL" color="Gfx.COLOR_DK_GRAY" />
-    <label id="MainText" text="22" x="center" y="45%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_HOT" />
+    <bitmap id="MainTextTitleIcon" x="38%" y="20%" filename="speed.png" />
+    <label id="MainTextTitle" text="kmh" x="55%" y="22%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_TINY" color="Gfx.COLOR_DK_GRAY" />
+    <label id="MainText" text="22" x="center" y="42%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_HOT" />
     <!-- Left text -->
-    <bitmap id="LeftTextTitleIcon" x="38%" y="22%" filename="speed.png" />
-    <label id="LeftTextTitle" text="kmh" x="55%" y="25%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_SMALL" color="Gfx.COLOR_DK_GRAY" />
-    <label id="LeftText" text="22" x="center" y="45%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_HOT" />
+    <bitmap id="LeftTextTitleIcon" x="8%" y="58%" filename="speed.png" />
+    <label id="LeftTextTitle" text="%" x="23%" y="60%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_TINY" color="Gfx.COLOR_DK_GRAY" />
+    <label id="LeftText" text="24" x="20%" y="75%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_MILD" />
     <!-- Center text -->
-    <bitmap id="CenterTextTitleIcon" x="38%" y="22%" filename="speed.png" />
-    <label id="CenterTextTitle" text="kmh" x="55%" y="25%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_SMALL" color="Gfx.COLOR_DK_GRAY" />
-    <label id="CenterText" text="22" x="center" y="45%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_HOT" />
+    <bitmap id="CenterTextTitleIcon" x="38%" y="58%" filename="speed.png" />
+    <label id="CenterTextTitle" text="m" x="53%" y="60%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_TINY" color="Gfx.COLOR_DK_GRAY" />
+    <label id="CenterText" text="35" x="center" y="75%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_MILD" />
     <!-- Right text -->
-    <bitmap id="RightTextTitleIcon" x="38%" y="22%" filename="speed.png" />
-    <label id="RightTextTitle" text="kmh" x="55%" y="25%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_SMALL" color="Gfx.COLOR_DK_GRAY" />
-    <label id="RightText" text="22" x="center" y="45%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_HOT" />
+    <bitmap id="RightTextTitleIcon" x="70%" y="58%" filename="speed.png" />
+    <label id="RightTextTitle" text="C" x="85%" y="60%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_TINY" color="Gfx.COLOR_DK_GRAY" />
+    <label id="RightText" text="69" x="80%" y="75%" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" font="Gfx.FONT_NUMBER_MILD" />
     
     <!-- Seperators -->
     <drawable id="Separators" class="SeparatorRenderer" />
