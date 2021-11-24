@@ -15,6 +15,7 @@ devices = [
     "enduro",
     "fr645",
     "fr645m",
+    "fr735xt",
     "fr745",
     "fr935",
     "fr945",
@@ -45,7 +46,7 @@ devices = [
     "marqcommander",
     "marqdriver",
     "marqexpedition",
-    "marqgolfer",  
+    "marqgolfer",
 ]
 permissions = [
     "Communications"
