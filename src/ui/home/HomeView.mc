@@ -7,7 +7,6 @@ class HomeView extends WatchUi.View {
 
     function onLayout(dc) {
         setLayout(Rez.Layouts.HomeLayout(dc));
-        View.findDrawableById("MainText").setText("0.0");
     }
 
     function onShow() {
@@ -16,6 +15,9 @@ class HomeView extends WatchUi.View {
 
     function onUpdate(dc) {
         View.findDrawableById("MainText").setText(RuntimeData.speed.format("%0.1f"));
+        View.findDrawableById("LeftText").setText(RuntimeData.battery.format("%0.1f"));
+        View.findDrawableById("CenterText").setText(RuntimeData.distance.format("%0.1f"));
+        View.findDrawableById("RightText").setText(RuntimeData.temperature.format("%0.1f"));
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
