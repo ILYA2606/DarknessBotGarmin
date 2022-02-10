@@ -1,3 +1,4 @@
+# Manifest compatible with kumitateru 0.4.0
 [package]
 name_res = "@Strings.AppName"
 icon_resource = "@Drawables.LauncherIcon"
@@ -5,7 +6,7 @@ main_class = "DarknessBot"
 app_type = "watch-app"
 package_type = "app"
 min_sdk = "1.2.0"
-target_sdk = "4.0.4"
+target_sdk = "4.0.6"
 
 [package_meta]
 name = "DarknessBot"

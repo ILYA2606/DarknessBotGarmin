@@ -1,0 +1,50 @@
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" 
+cd "$DIR"
+
+declare -a models=(
+    "enduro"
+    "fr645"
+    "fr645m"
+    "fr735xt"
+    "fr745"
+    "fr935"
+    "fr945"
+    "fenix3"
+    "fenix3_hr"
+    "fenix5"
+    "fenix5plus"
+    "fenix5s"
+    "fenix5splus"
+    "fenix5x"
+    "fenix6"
+    "fenix6pro"
+    "fenix6s"
+    "fenix6spro"
+    "fenix6xpro"
+    "fenixchronos"
+    "vivoactive3"
+    "vivoactive3d"
+    "vivoactive3m"
+    "vivoactive3mlte"
+    "vivoactive4"
+    "vivoactive4s"
+    "approachs60"
+    "approachs62"
+    "marqadventurer"
+    "marqathlete"
+    "marqaviator"
+    "marqcommander"
+    "marqdriver"
+    "marqexpedition"
+    "marqgolfer"
+)
+
+BIN_FOLDER="build/bin"
+DEFAULT_FILENAME="DarknessBot"
+FILE_EXTENSION="prg"
+
+for model in "${models[@]}"
+do
+     kumitateru build --target ${model}
+     mv ./${BIN_FOLDER}/${DEFAULT_FILENAME}.${FILE_EXTENSION} ./${BIN_FOLDER}/${model}.${FILE_EXTENSION}
+done
