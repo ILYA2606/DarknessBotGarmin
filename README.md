@@ -3,14 +3,13 @@ A companion app for DarknessBot.
 
 ## Build
 
-Install Garmin developer SDK: https://developer.garmin.com/connect-iq/sdk/
+- Install Garmin SDK Manager: https://developer.garmin.com/connect-iq/sdk/
+- Install SDK 4.0.6 and all devices support in SDK Manager
 
-Install Kumitateru:
+Build app for specific model:
 ```shell
-brew install ggoraa/brew/kumitateru
+./kumitateru build --target fenix3
 ```
 
-And build:
-```shell
-kumitateru build --target fenix3
-```
+Build app for all models:
+Run `build.command`

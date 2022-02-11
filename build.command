@@ -45,6 +45,6 @@ FILE_EXTENSION="prg"
 
 for model in "${models[@]}"
 do
-     kumitateru build --target ${model}
+     ./kumitateru build --target ${model}
      mv ./${BIN_FOLDER}/${DEFAULT_FILENAME}.${FILE_EXTENSION} ./${BIN_FOLDER}/${model}.${FILE_EXTENSION}
 done
