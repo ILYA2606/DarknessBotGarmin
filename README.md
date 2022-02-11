@@ -1,6 +1,11 @@
 # DarknessBotGarmin
 A Garmin companion app for [DarknessBot](https://apps.apple.com/app/darknessbot/id1108403878).
 
+# Resuirements
+
+- macOS 11.0 or newer
+- DarknessBot 7.3 or newer (for testing)
+
 # Build
 
 - Install Garmin SDK Manager: https://developer.garmin.com/connect-iq/sdk/
