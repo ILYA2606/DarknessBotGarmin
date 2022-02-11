@@ -10,7 +10,7 @@ A Garmin companion app for [DarknessBot](https://apps.apple.com/app/darknessbot/
 ./kumitateru build --target fenix3
 ```
 - Build app for all models: Run `build.command`
-- Built app `.prg` will be available in `build` folder
+- Built app `.prg` files will be available in `build` folder
 
 # Messaging Protocol
 
