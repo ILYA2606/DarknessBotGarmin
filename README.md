@@ -18,14 +18,14 @@ A Garmin companion app for [DarknessBot](https://apps.apple.com/app/darknessbot/
 
 | Field name                  | Type       | Required | Description                                                                               |
 |-----------------------------|------------|----------|-------------------------------------------------------------------------------------------|
-| connected                   | Int        | *        | Connection status for transport.  1 - connected 2 - disconnected                          |
+| connected                   | Int        | *        | Connection status for transport.  1 - connected, 2 - disconnected                          |
 | remaining                   | Double     |          | Remainig mileage in km                                                                    |
 | totalMileage                | Double     |          | Total mileage in km                                                                       |
 | battery                     | Double     |          | Battery level in %                                                                        |
 | current                     | Double     |          | Amperage in A                                                                             |
 | singleMaxSpeed              | Double     |          | Max speed of trip in kph                                                                  |
-| isImperialUnit              | Int        |          | Is enabled imperial unit on iOS app.  1 - enabled 0 - disabled                            |
-| isFahrenheitUnit            | Int        |          | Is enabled Fahrenheit unit on iOS app.  1 - enabled 0 - disabled                          |
+| isImperialUnit              | Int        |          | Is enabled imperial unit on iOS app.  1 - enabled, 0 - disabled                            |
+| isFahrenheitUnit            | Int        |          | Is enabled Fahrenheit unit on iOS app.  1 - enabled, 0 - disabled                          |
 | avgSpeed                    | Double     |          | Avarage speed in kph                                                                      |
 | voltage                     | Double     |          | Voltage in V                                                                              |
 | distance                    | Double     |          | Trip mileage in km                                                                        |
@@ -36,15 +36,15 @@ A Garmin companion app for [DarknessBot](https://apps.apple.com/app/darknessbot/
 | maxSpeed                    | Double     |          | Max speed for connected transport in kph                                                  |
 | pwm                         | Double     |          | PWM (duty cycle) in %                                                                     |
 | settings                    | Dictionary |          | Settings dictionary                                                                       |
-| settings.beep               | Int        |          | Is beep option available for connected transport.  1 - availabe 0 - unavailable           |
-| settings.lights             | Int        |          | Is lights option available for connected transport. 1 - availabe 0 - unavailable          |
-| settings.limit              | Int        |          | Is limit speed mode option available for connected transport 1 - availabe 0 - unavailable |
-| settings.lock               | Int        |          | Is lock option available for connected transport 1 - availabe 0 - unavailable             |
-| settings.musicVolumeControl | Int        |          | Is music volume control option available on iOS app. 1 - availabe 0 - unavailable         |
-| settings.strobe             | Int        |          | Is strobe option available for connected transport. 1 - availabe 0 - unavailable          |
-| settings.torch              | Int        |          | Is torch option available for connected transport. 1 - availabe 0 - unavailable           |
-| settings.tracker            | Int        |          | Is tracker option available on iOS app. 1 - availabe 0 - unavailable                      |
-| settings.turnOff            | Int        |          | Is turn off option available for connected transport. 1 - availabe 0 - unavailable        |
+| settings.beep               | Int        |          | Is beep option available for connected transport.  1 - availabe, 0 - unavailable           |
+| settings.lights             | Int        |          | Is lights option available for connected transport. 1 - availabe, 0 - unavailable          |
+| settings.limit              | Int        |          | Is limit speed mode option available for connected transport 1 - availabe, 0 - unavailable |
+| settings.lock               | Int        |          | Is lock option available for connected transport 1 - availabe, 0 - unavailable             |
+| settings.musicVolumeControl | Int        |          | Is music volume control option available on iOS app. 1 - availabe, 0 - unavailable         |
+| settings.strobe             | Int        |          | Is strobe option available for connected transport. 1 - availabe, 0 - unavailable          |
+| settings.torch              | Int        |          | Is torch option available for connected transport. 1 - availabe, 0 - unavailable           |
+| settings.tracker            | Int        |          | Is tracker option available on iOS app. 1 - availabe, 0 - unavailable                      |
+| settings.turnOff            | Int        |          | Is turn off option available for connected transport. 1 - availabe, 0 - unavailable        |
 
 ## Outgoing message from Garmin App
 
