@@ -1,7 +1,7 @@
 # DarknessBotGarmin
 A Garmin companion app for [DarknessBot](https://apps.apple.com/app/darknessbot/id1108403878).
 
-# Resuirements
+# Requirements
 
 - macOS 11.0 or newer
 - DarknessBot 7.3 or newer (for testing)
